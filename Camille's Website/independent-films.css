@@ -1,0 +1,230 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+a:link{
+    text-decoration: none!important;
+    color: #8b0e35;
+}
+
+.title {
+    scale: 150%;
+    color: transparent;
+    background-image: linear-gradient(43deg, #f27410 0%, #a52303 40%, #771102 100%);
+    -webkit-background-clip: text;
+    font-family: 'Fugue,' sans-serif;
+    text-align: center;
+    text-shadow: 0 0 20px #f27410,
+                0 0 40px #a52303,
+                0 0 80px #771102,
+                0 0 100px #460707;
+
+}
+/*---------- HEADER --------------*/
+
+header{
+    background-color: white;
+    font-family: 'Europa', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    translate: -4rem;
+
+}
+
+header li{
+    display: inline;
+    padding-left: 120px;
+}
+
+header li a{
+    color: #460707;
+    padding: 13px;
+}
+
+header li a:hover{
+    color: #8b0e35
+}
+
+header li img{
+    width: 153px;
+    height: 153px;
+}
+
+footer{
+    color: transparent;
+    font-size: 20px;
+    background-image: linear-gradient(43deg, #f27410 0%, #a52303 40%, #771102 100%);
+    -webkit-background-clip: text;
+    font-family: 'Fugue,' sans-serif;
+    text-align: center;
+    text-shadow: 0 0 20px #f27410,
+                0 0 40px #a52303,
+                0 0 80px #771102,
+                0 0 100px #460707;
+}
+
+footer li{
+    display: inline;
+    padding-left: 40px;
+}
+
+/*---------- BORDER --------------*/
+
+.border-extension {
+    color: white;
+    width: 5000px;
+}
+
+.border-extension-white{
+    height: 300px;
+    width: 80px;
+    background-color: white;
+    bottom: 42.38rem;
+    translate: 88rem;
+    position:absolute
+
+}
+
+/*---------- FILM CELLS --------------*/
+
+.film-cells {
+    color: transparent;
+    background-image: linear-gradient(43deg, #f27410 0%, #a52303 40%, #771102 100%);
+    -webkit-background-clip: text;
+    font-family: 'Fugue,' sans-serif;
+    text-align: center;
+    text-shadow: 0 0 20px #f27410,
+                0 0 40px #a52303,
+                0 0 80px #771102,
+                0 0 100px #460707;
+
+}
+h1{
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    border-radius: 20px;
+}
+.small-film-cell-one {
+    height: 60px;
+    width: 50px;
+    background-color: white;
+    border-radius: 6px;
+    bottom: 24rem;
+    translate: 27rem;
+    position:absolute;
+}
+
+.big-film-cell-one {
+    height:400px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    translate: 31rem;
+}
+
+.small-film-cell-two {
+    height: 60px;
+    width: 50px;
+    background-color: white;
+    border-radius: 6px;
+    bottom: -22rem;
+    translate: 27rem;
+    position:absolute
+}
+
+.big-film-cell-two{
+    height:400px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    translate: 31rem;
+}
+
+.small-film-cell-three{
+    height: 60px;
+    width: 50px;
+    background-color: white;
+    border-radius: 6px;
+    bottom: -61rem;
+    translate: 27rem;
+    position:absolute
+}
+
+.big-film-cell-three{
+    height:400px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    translate: 31rem;
+}
+
+/*---------- PILL BUTTON --------------*/
+
+
+:root {
+    --clr-neon: rgb(202, 96, 35);
+    --clr-bg: hsl(323 21% 16%);
+}
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+}
+  
+.pill {
+    font-size: 25px;
+    display: inline-block;
+    cursor: pointer;
+    color: var(--clr-neon);
+    border: var(--clr-neon) 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+    background-color: transparent;
+  
+    text-shadow: 0 0 0.125em rgb(202, 96, 35), 0 0 0.45em currentColor;
+  
+    box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+  
+    position: relative;
+}
+  
+.pill::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 2em 0.5em var(--clr-neon);
+    opacity: 0;
+    background-color: var(--clr-neon);
+    z-index: -1;
+    transition: opacity 100ms linear;
+}
+  
+.pill:hover,
+.pill:focus {
+    color: var(--clr-bg);
+    text-shadow: none;
+}
+  
+.pill:hover::before,
+.pill:focus::before {
+    opacity: 1;
+}
+
+.pill:hover::after,
+.pill:focus::after {
+    opacity: 1;
+}

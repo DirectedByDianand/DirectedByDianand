@@ -1,0 +1,160 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+a:link{
+    text-decoration: none!important;
+    color:black;
+}
+
+header{
+    background-color: white;
+    font-family: 'Europa', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    translate: -4rem;
+
+}
+
+header li{
+    display: inline;
+    padding-left: 120px;
+}
+
+header li a{
+    color: #460707;
+    text-decoration: none;
+    padding: 13px;
+}
+
+header li a:hover{
+    color: #8b0e35
+}
+
+header li img{
+    width: 153px;
+    height: 153px;
+}
+
+footer{
+    text-align: center;
+    translate: -2.2rem;
+
+}
+
+footer li {
+    display: inline;
+    padding-left: 40px;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+.subheading {
+    text-align: center;
+    color: gray;
+    font-family: 'Europa', sans-serif;
+
+}
+
+.form{
+    width:340px;
+    height:440px;
+    background:white;
+    line-height: 22px;
+    border-radius:8px;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Europa',sans-serif;
+    position:absolute;
+    bottom: 14rem;
+    translate: 4rem;
+    position: relative;
+}
+
+.input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    line-height: 22px;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Europa',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid white;
+}
+
+.input:focus{
+    border-bottom:2px solid #78788c;
+}
+
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a
+}
+
+.button {
+    background: white;
+    font-size: 25px;
+    font-family: 'Europa', sans-serif;
+    margin: 10px;
+    border-radius: 200px;
+    border-width: 2px;
+    border: 2px solid black;
+    cursor: pointer;
+    translate: -4.5rem;
+    text-align: center;
+    width: 570px;
+    translate: -13.7rem;
+  }
+  
+.button:not(.button--selected):hover {
+    transition: 0.1s;
+    background: black;
+    color: white;
+  }
+
+  .textarea {
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: "Europa", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 570px;
+    height: 100px;
+    translate: -13rem;
+    text-align: left;
+    transition: all 0.2s;
+  }
+  
+  .textarea:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+  }
+  
+  .textarea:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+  }
+
+  
