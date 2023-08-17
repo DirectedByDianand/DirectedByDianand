@@ -1,0 +1,162 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+a:link{
+    text-decoration: none!important;
+}
+
+/*---------- HEADER --------------*/
+
+header{
+    background-color: white;
+    font-family: 'Europa', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    translate: -4rem;
+
+}
+
+header li{
+    display: inline;
+    padding-left: 120px;
+}
+
+header li a{
+    color: #460707;
+    text-decoration: none;
+    padding: 13px;
+}
+
+header li a:hover{
+    color: #8b0e35
+}
+
+header li img{
+    width: 153px;
+    height: 153px;
+}
+
+footer{
+    color: transparent;
+    font-size: 20px;
+    background-image: linear-gradient(43deg, #f27410 0%, #a52303 40%, #771102 100%);
+    -webkit-background-clip: text;
+    font-family: 'Fugue,' sans-serif;
+    text-align: center;
+    text-shadow: 0 0 20px #f27410,
+                0 0 40px #a52303,
+                0 0 80px #771102,
+                0 0 100px #460707;
+}
+
+footer li{
+    display: inline;
+    padding-left: 40px;
+}
+
+/*---------- BORDER --------------*/
+
+.border-extension {
+    color: white;
+    width: 5000px;
+}
+
+.border-extension-white{
+    height: 300px;
+    width: 150px;
+    background-color: white;
+    bottom: 42.05rem;
+    translate: 88rem;
+    position:absolute
+
+}
+
+/*---------- Film Strips --------------*/
+
+.film-strips{
+    color: transparent;
+    font-size: 40px;
+    background-image: linear-gradient(43deg, #f27410 0%, #a52303 40%, #771102 100%);
+    -webkit-background-clip: text;
+    font-family: 'Fugue,' sans-serif;
+    text-align: center;
+    text-shadow: 0 0 20px #f27410,
+                0 0 40px #a52303,
+                0 0 80px #771102,
+                0 0 100px #460707;
+
+}
+
+.film-strip-teaching-projects{
+    height: 270px;
+    width: 1200px;
+    border-radius: 12px;    
+    translate: 10.1rem;
+}
+
+.film-strip-freelancing-projects{
+    height: 270px;
+    width: 1200px;
+    border-radius: 12px;    
+    top: 35rem;
+    translate: 10.1rem;
+}
+
+.film-strip-student-films{
+    height: 270px;
+    width: 1200px;
+    border-radius: 12px;    
+    top: 55rem;
+    translate: 10.1rem;
+}
+
+.film-strip-independent-films{
+    height: 270px;
+    width: 1200px;
+    border-radius: 12px;    
+    top: 75rem;
+    translate: 10.1rem;
+}
+
+/*---------- Hover Animation --------------*/
+
+.film-strip-teaching-projects:not(.film-strip-teaching-projects--selected):hover {
+    scale: 105%;
+    box-shadow: 0 0 10px #f27410,
+    0 0 40px #a52303,
+    0 0 80px #771102,
+    0 0 100px #460707;
+    transition: 0.1s;
+}
+
+.film-strip-freelancing-projects:not(.film-strip-freelancing-projects--selected):hover {
+    scale: 105%;
+    box-shadow: 0 0 10px #f27410,
+    0 0 40px #a52303,
+    0 0 80px #771102,
+    0 0 100px #460707;
+    transition: 0.1s;
+}
+
+.film-strip-student-films:not(.film-strip-student-films--selected):hover {
+    scale: 105%;
+    box-shadow: 0 0 10px #f27410,
+    0 0 40px #a52303,
+    0 0 80px #771102,
+    0 0 100px #460707;
+    transition: 0.1s;
+}
+
+.film-strip-independent-films:not(.film-strip-independent-films--selected):hover {
+    scale: 105%;
+    box-shadow: 0 0 10px #f27410,
+    0 0 40px #a52303,
+    0 0 80px #771102,
+    0 0 100px #460707;
+    transition: 0.1s;
+}
